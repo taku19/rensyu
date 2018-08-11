@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		318EFA19211F18B800154671 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 318EFA18211F18B800154671 /* Sounds */; };
+		318EFA1D211F18D400154671 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 318EFA1C211F18D400154671 /* Sprites.atlas */; };
 		31E325E92119EF380075A2AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E325E82119EF380075A2AA /* AppDelegate.swift */; };
 		31E325EB2119EF380075A2AA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 31E325EA2119EF380075A2AA /* GameScene.sks */; };
 		31E325ED2119EF380075A2AA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E325EC2119EF380075A2AA /* GameScene.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		318EFA18211F18B800154671 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		318EFA1C211F18D400154671 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		31E325E52119EF380075A2AA /* tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E325E82119EF380075A2AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31E325EA2119EF380075A2AA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		31E325E72119EF380075A2AA /* tetris */ = {
 			isa = PBXGroup;
 			children = (
+				318EFA1C211F18D400154671 /* Sprites.atlas */,
+				318EFA18211F18B800154671 /* Sounds */,
 				31E325E82119EF380075A2AA /* AppDelegate.swift */,
 				31E325EA2119EF380075A2AA /* GameScene.sks */,
 				31E325EC2119EF380075A2AA /* GameScene.swift */,
@@ -235,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318EFA19211F18B800154671 /* Sounds in Resources */,
+				318EFA1D211F18D400154671 /* Sprites.atlas in Resources */,
 				31E325EB2119EF380075A2AA /* GameScene.sks in Resources */,
 				31E325F72119EF380075A2AA /* LaunchScreen.storyboard in Resources */,
 				31E325F42119EF380075A2AA /* Assets.xcassets in Resources */,
@@ -492,6 +500,7 @@
 				31E326132119EF380075A2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31E326142119EF380075A2AA /* Build configuration list for PBXNativeTarget "tetrisTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +509,7 @@
 				31E326162119EF380075A2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31E326172119EF380075A2AA /* Build configuration list for PBXNativeTarget "tetrisUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +518,7 @@
 				31E326192119EF380075A2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

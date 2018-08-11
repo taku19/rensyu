@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		318EFA19211F18B800154671 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 318EFA18211F18B800154671 /* Sounds */; };
 		318EFA1D211F18D400154671 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 318EFA1C211F18D400154671 /* Sprites.atlas */; };
+		318EFA1F211F534F00154671 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EFA1E211F534F00154671 /* File.swift */; };
 		31E325E92119EF380075A2AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E325E82119EF380075A2AA /* AppDelegate.swift */; };
 		31E325EB2119EF380075A2AA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 31E325EA2119EF380075A2AA /* GameScene.sks */; };
 		31E325ED2119EF380075A2AA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E325EC2119EF380075A2AA /* GameScene.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		318EFA18211F18B800154671 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		318EFA1C211F18D400154671 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		318EFA1E211F534F00154671 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		31E325E52119EF380075A2AA /* tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E325E82119EF380075A2AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31E325EA2119EF380075A2AA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				31E325F32119EF380075A2AA /* Assets.xcassets */,
 				31E325F52119EF380075A2AA /* LaunchScreen.storyboard */,
 				31E325F82119EF380075A2AA /* Info.plist */,
+				318EFA1E211F534F00154671 /* File.swift */,
 			);
 			path = tetris;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31E325ED2119EF380075A2AA /* GameScene.swift in Sources */,
+				318EFA1F211F534F00154671 /* File.swift in Sources */,
 				31E325EF2119EF380075A2AA /* GameViewController.swift in Sources */,
 				31E325E92119EF380075A2AA /* AppDelegate.swift in Sources */,
 			);

@@ -11,6 +11,8 @@
 		318EFA1D211F18D400154671 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 318EFA1C211F18D400154671 /* Sprites.atlas */; };
 		318EFA1F211F534F00154671 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EFA1E211F534F00154671 /* Array2D.swift */; };
 		318EFA21211F606700154671 /* Blockfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EFA20211F606700154671 /* Blockfile.swift */; };
+		318EFA2321227E2400154671 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EFA2221227E2400154671 /* Shape.swift */; };
+		318EFA2521228F7C00154671 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EFA2421228F7C00154671 /* SquareShape.swift */; };
 		31E325E92119EF380075A2AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E325E82119EF380075A2AA /* AppDelegate.swift */; };
 		31E325ED2119EF380075A2AA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E325EC2119EF380075A2AA /* GameScene.swift */; };
 		31E325EF2119EF380075A2AA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E325EE2119EF380075A2AA /* GameViewController.swift */; };
@@ -43,6 +45,8 @@
 		318EFA1C211F18D400154671 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		318EFA1E211F534F00154671 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		318EFA20211F606700154671 /* Blockfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blockfile.swift; sourceTree = "<group>"; };
+		318EFA2221227E2400154671 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		318EFA2421228F7C00154671 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 		31E325E52119EF380075A2AA /* tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E325E82119EF380075A2AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31E325EC2119EF380075A2AA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				31E325F82119EF380075A2AA /* Info.plist */,
 				318EFA1E211F534F00154671 /* Array2D.swift */,
 				318EFA20211F606700154671 /* Blockfile.swift */,
+				318EFA2221227E2400154671 /* Shape.swift */,
+				318EFA2421228F7C00154671 /* SquareShape.swift */,
 			);
 			path = tetris;
 			sourceTree = "<group>";
@@ -273,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318EFA2521228F7C00154671 /* SquareShape.swift in Sources */,
 				31E325ED2119EF380075A2AA /* GameScene.swift in Sources */,
 				318EFA21211F606700154671 /* Blockfile.swift in Sources */,
 				318EFA1F211F534F00154671 /* Array2D.swift in Sources */,
+				318EFA2321227E2400154671 /* Shape.swift in Sources */,
 				31E325EF2119EF380075A2AA /* GameViewController.swift in Sources */,
 				31E325E92119EF380075A2AA /* AppDelegate.swift in Sources */,
 			);
